@@ -120,7 +120,7 @@ def run_cli_evaluation(
     timeout_seconds: int = 7200,
     rules_source: str = "git",
     rules_ref: str = "main",
-    rules_repo: str = "https://github.com/awslabs/aidlc-workflows.git",
+    rules_repo: str = "https://github.com/hangntt1985/aidlc.git",
 ) -> tuple[AdapterResult, int]:
     """Run the full CLI evaluation pipeline.
 

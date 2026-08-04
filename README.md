@@ -804,7 +804,7 @@ Set up AI-DLC in this project by doing the following:
 
 1. Download the latest AI-DLC release:
    - Use the GitHub API to find the latest release asset URL:
-     curl -sL https://api.github.com/repos/awslabs/aidlc-workflows/releases/latest \
+     curl -sL https://api.github.com/repos/hangntt1985/aidlc/releases/latest \
        | grep -o '"browser_download_url": *"[^"]*"' \
        | head -1 \
        | cut -d'"' -f4

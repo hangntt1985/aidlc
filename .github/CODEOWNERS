@@ -2,20 +2,20 @@
 
 ## Default owners for everything in the repo
 
-*                                      @awslabs/aidlc-admins @awslabs/aidlc-maintainers
+*                                      @hangntt1985
 
-.github/                               @awslabs/aidlc-admins
-.gitignore                             @awslabs/aidlc-admins
-aidlc-rules/                           @awslabs/aidlc-admins @awslabs/aidlc-maintainers @awslabs/aidlc-writers
-assets/                                @awslabs/aidlc-admins @awslabs/aidlc-maintainers @awslabs/aidlc-writers
-CHANGELOG.md                           @awslabs/aidlc-admins
-cliff.toml                             @awslabs/aidlc-admins
-CODE_OF_CONDUCT.md                     @awslabs/aidlc-admins
-CONTRIBUTING.md                        @awslabs/aidlc-admins
-LICENSE                                @awslabs/aidlc-admins
-README.md                              @awslabs/aidlc-admins
-scripts/                               @awslabs/aidlc-admins @awslabs/aidlc-maintainers
+.github/                               @hangntt1985
+.gitignore                             @hangntt1985
+aidlc-rules/                           @hangntt1985
+assets/                                @hangntt1985
+CHANGELOG.md                           @hangntt1985
+cliff.toml                             @hangntt1985
+CODE_OF_CONDUCT.md                     @hangntt1985
+CONTRIBUTING.md                        @hangntt1985
+LICENSE                                @hangntt1985
+README.md                              @hangntt1985
+scripts/                               @hangntt1985
 
 ## Secure the CODEOWNERS file
 
-/.github/CODEOWNERS                    @awslabs/aidlc-admins
+/.github/CODEOWNERS                    @hangntt1985

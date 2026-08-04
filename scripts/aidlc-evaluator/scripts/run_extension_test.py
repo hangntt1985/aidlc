@@ -25,8 +25,8 @@ Usage:
         --extensions security,performance,observability
 
 Reference:
-    - Extension hook feature: https://github.com/awslabs/aidlc-workflows/tree/feat/extension_hook_question_split
-    - Opt-in example: https://github.com/awslabs/aidlc-workflows/blob/feat/extension_hook_question_split/aidlc-rules/aws-aidlc-rule-details/extensions/security/baseline/security-baseline.opt-in.md
+    - Extension hook feature: https://github.com/hangntt1985/aidlc/tree/feat/extension_hook_question_split
+    - Opt-in example: https://github.com/hangntt1985/aidlc/blob/feat/extension_hook_question_split/aidlc-rules/aws-aidlc-rule-details/extensions/security/baseline/security-baseline.opt-in.md
 """
 
 from __future__ import annotations

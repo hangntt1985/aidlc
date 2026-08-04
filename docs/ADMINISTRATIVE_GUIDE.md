@@ -1,6 +1,6 @@
 # Administrative Guide
 
-This guide documents the CI/CD infrastructure, GitHub Workflows, protected environments, secrets, variables, permissions, and release process for the `awslabs/aidlc-workflows` repository.
+This guide documents the CI/CD infrastructure, GitHub Workflows, protected environments, secrets, variables, permissions, and release process for the `hangntt1985/aidlc` repository.
 
 **Audience:** Repository administrators, maintainers, and AI coding agents working on this repository.
 
@@ -44,7 +44,7 @@ This repository publishes the **AI-DLC (AI-Driven Development Life Cycle)** meth
 - **Changelog generation** via git-cliff (changelog-first: updated before release, included in the tagged commit)
 
 ```text
-awslabs/aidlc-workflows/
+hangntt1985/aidlc/
 ├── .github/
 │   ├── CODEOWNERS
 │   ├── ISSUE_TEMPLATE/           # Bug, feature, RFC, docs templates
@@ -561,7 +561,7 @@ All **HIGH** and **CRITICAL** security findings from any scanner must be either 
 
 1. The developer adds the appropriate suppression (inline comment or config entry) with a clear justification
 2. The suppression is reviewed as part of the normal PR code review process
-3. Reviewers from `@awslabs/aidlc-admins` or `@awslabs/aidlc-maintainers` must approve any risk acceptance
+3. Reviewers from `@hangntt1985` must approve any risk acceptance
 4. LOW and MEDIUM findings should be addressed when practical but do not block merge
 
 For detailed remediation and suppression instructions per scanner, see [Developer's Guide — Security Scanners](DEVELOPERS_GUIDE.md#security-scanners).
@@ -574,15 +574,15 @@ Defined in `.github/CODEOWNERS`:
 
 | Path                                          | Owners                                                                        |
 | --------------------------------------------- | ----------------------------------------------------------------------------- |
-| `*` (default)                                 | `@awslabs/aidlc-admins` `@awslabs/aidlc-maintainers`                          |
-| `.github/`                                    | `@awslabs/aidlc-admins`                                                       |
-| `.github/CODEOWNERS`                          | `@awslabs/aidlc-admins`                                                       |
-| `aidlc-rules/`                                | `@awslabs/aidlc-admins` `@awslabs/aidlc-maintainers` `@awslabs/aidlc-writers` |
-| `assets/`                                     | `@awslabs/aidlc-admins` `@awslabs/aidlc-maintainers` `@awslabs/aidlc-writers` |
-| `scripts/`                                    | `@awslabs/aidlc-admins` `@awslabs/aidlc-maintainers`                          |
-| `CHANGELOG.md`, `cliff.toml`, `LICENSE`, etc. | `@awslabs/aidlc-admins`                                                       |
+| `*` (default)                                 | `@hangntt1985`                          |
+| `.github/`                                    | `@hangntt1985`                                                       |
+| `.github/CODEOWNERS`                          | `@hangntt1985`                                                       |
+| `aidlc-rules/`                                | `@hangntt1985` |
+| `assets/`                                     | `@hangntt1985` |
+| `scripts/`                                    | `@hangntt1985`                          |
+| `CHANGELOG.md`, `cliff.toml`, `LICENSE`, etc. | `@hangntt1985`                                                       |
 
-**Key implication:** Only `@awslabs/aidlc-admins` can approve changes to `.github/` (workflows, CODEOWNERS, issue templates).
+**Key implication:** Only `@hangntt1985` can approve changes to `.github/` (workflows, CODEOWNERS, issue templates).
 
 ---
 
@@ -597,7 +597,7 @@ Releases follow a **changelog-first** flow: the CHANGELOG is updated *before* th
 
 2. **Review and merge the release PR:**
    - Verify the changelog content is correct
-   - Merge the PR (requires `@awslabs/aidlc-admins` approval since `CHANGELOG.md` is owned by them)
+   - Merge the PR (requires `@hangntt1985` approval since `CHANGELOG.md` is owned by them)
    - `tag-on-merge.yml` automatically creates tag `v1.2.0` on the merge commit and dispatches the release and build workflows
 
 3. **`release.yml` runs automatically** (dispatched by `tag-on-merge.yml` with `--ref v1.2.0`):

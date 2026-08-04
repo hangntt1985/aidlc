@@ -82,7 +82,7 @@ def _setup_rules(
     output_dir: Path,
     *,
     rules_source: str = "git",
-    rules_repo: str = "https://github.com/awslabs/aidlc-workflows.git",
+    rules_repo: str = "https://github.com/hangntt1985/aidlc.git",
     rules_ref: str = "main",
     rules_local_path: str | None = None,
 ) -> Path:
@@ -236,7 +236,7 @@ def main() -> None:
     # ── Resolve AIDLC rules config ────────────────────────────────────────
     aidlc_cfg = cfg_data.get("aidlc", {})
     rules_source = aidlc_cfg.get("rules_source", "git")
-    rules_repo = aidlc_cfg.get("rules_repo", "https://github.com/awslabs/aidlc-workflows.git")
+    rules_repo = aidlc_cfg.get("rules_repo", "https://github.com/hangntt1985/aidlc.git")
     rules_ref = args.rules_ref or aidlc_cfg.get("rules_ref", "main")
 
     if args.rules_path:

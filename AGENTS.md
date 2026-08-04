@@ -99,7 +99,7 @@ cd scripts/aidlc-evaluator && uv run pytest
 
   > By submitting this pull request, I confirm that you can use, modify, copy,
   > and redistribute this contribution, under the terms of the
-  > [project license](https://github.com/awslabs/aidlc-workflows/blob/main/LICENSE).
+  > [project license](https://github.com/hangntt1985/aidlc/blob/main/LICENSE).
 
 - CI enforces: conventional commit title, contributor statement, markdownlint, and
   a do-not-merge label check

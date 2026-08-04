@@ -52,8 +52,8 @@ def main() -> None:
     )
     trend_parser.add_argument(
         "--repo",
-        default="awslabs/aidlc-workflows",
-        help="GitHub repository (default: awslabs/aidlc-workflows)",
+        default="hangntt1985/aidlc",
+        help="GitHub repository (default: hangntt1985/aidlc)",
     )
     trend_parser.add_argument(
         "--cache-prefix",

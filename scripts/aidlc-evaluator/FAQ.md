@@ -97,7 +97,7 @@ Evaluations don't automatically block merges—they provide context. Work with m
 
 ## How does this relate to the AI-DLC workflows repository?
 
-This framework monitors and validates the [AI-DLC workflows](https://github.com/awslabs/aidlc-workflows) to ensure changes maintain or improve quality. It's a testing layer on top of the workflows themselves.
+This framework monitors and validates the [AI-DLC workflows](https://github.com/hangntt1985/aidlc) to ensure changes maintain or improve quality. It's a testing layer on top of the workflows themselves.
 
 ## Can I run tests locally before submitting a PR?
 

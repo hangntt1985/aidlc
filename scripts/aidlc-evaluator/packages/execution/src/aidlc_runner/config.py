@@ -32,7 +32,7 @@ class ModelsConfig:
 @dataclass
 class AidlcConfig:
     rules_source: str = "git"
-    rules_repo: str = "https://github.com/awslabs/aidlc-workflows.git"
+    rules_repo: str = "https://github.com/hangntt1985/aidlc.git"
     rules_local_path: str | None = None
     rules_ref: str = "main"
 

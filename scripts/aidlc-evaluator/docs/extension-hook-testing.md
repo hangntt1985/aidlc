@@ -232,9 +232,9 @@ Planned improvements to extension testing:
 
 ## References
 
-- [Extension Hook Feature Branch](https://github.com/awslabs/aidlc-workflows/tree/feat/extension_hook_question_split)
-- [Security Baseline Opt-in Example](https://github.com/awslabs/aidlc-workflows/blob/feat/extension_hook_question_split/aidlc-rules/aws-aidlc-rule-details/extensions/security/baseline/security-baseline.opt-in.md)
-- [AIDLC Workflows Repository](https://github.com/awslabs/aidlc-workflows)
+- [Extension Hook Feature Branch](https://github.com/hangntt1985/aidlc/tree/feat/extension_hook_question_split)
+- [Security Baseline Opt-in Example](https://github.com/hangntt1985/aidlc/blob/feat/extension_hook_question_split/aidlc-rules/aws-aidlc-rule-details/extensions/security/baseline/security-baseline.opt-in.md)
+- [AIDLC Workflows Repository](https://github.com/hangntt1985/aidlc)
 
 ## Support
 

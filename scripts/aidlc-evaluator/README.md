@@ -1,6 +1,6 @@
 # AI-DLC Workflows Evaluation & Reporting Framework
 
-Automated testing and reporting framework for validating changes to the [AI-DLC workflows](https://github.com/awslabs/aidlc-workflows) repository.
+Automated testing and reporting framework for validating changes to the [AI-DLC workflows](https://github.com/hangntt1985/aidlc) repository.
 
 ## Overview
 
@@ -98,7 +98,7 @@ models:
 
 aidlc:
   rules_source: "git"   # "git" or "local"
-  rules_repo: "https://github.com/awslabs/aidlc-workflows.git"
+  rules_repo: "https://github.com/hangntt1985/aidlc.git"
   rules_ref: "main"
   rules_local_path: null
 

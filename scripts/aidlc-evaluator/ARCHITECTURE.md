@@ -4,7 +4,7 @@
 
 This document describes the architecture, design decisions, data flows, and internal mechanics of the **AI-DLC Workflows Evaluation & Reporting Framework**. It is intended for developers who need to understand how the system works, extend it, or debug it.
 
-The framework validates changes to the [AI-DLC workflows](https://github.com/awslabs/aidlc-workflows) repository by running an AI-driven software development lifecycle end-to-end, then scoring the outputs across multiple quality dimensions: functional correctness, code quality, API contract conformance, and semantic similarity to a golden baseline.
+The framework validates changes to the [AI-DLC workflows](https://github.com/hangntt1985/aidlc) repository by running an AI-driven software development lifecycle end-to-end, then scoring the outputs across multiple quality dimensions: functional correctness, code quality, API contract conformance, and semantic similarity to a golden baseline.
 
 ---
 
@@ -193,7 +193,7 @@ Each stage loads its corresponding rule file (e.g., `inception/requirements-anal
 
 The runner either:
 
-- **Git clones** the AIDLC rules repository (default: `awslabs/aidlc-workflows`, ref configurable) into the run folder, then extracts the `aidlc-rules/` content
+- **Git clones** the AIDLC rules repository (default: `hangntt1985/aidlc`, ref configurable) into the run folder, then extracts the `aidlc-rules/` content
 - **Copies** from a local path when `rules_source: "local"` is configured
 
 #### Run Folder Layout
